@@ -33,30 +33,7 @@
                             </li>
             
 
-                            <!-- 静态布局 -->
-                            <!-- <li>
-                                <div class="header">
-                                    <div class="pic">
-                                        <img src="https://pic.qyer.com/album/user/4072/62/RUlSQBwFYk4/index/480x320"
-                                            alt="">
-                                    </div>
-                                    <div class="like total_replies"><i
-                                            class="iconfont-home icon-huifu"></i><span>8</span></div>
-                                </div>
-                                <div class="bottom">
-                                    <div class="info">
-                                        <span class="avatar"><img
-                                                src="https://pic.qyer.com/avatar/001/76/04/79/200?v=1562780530"
-                                                alt=""></span>
-                                        <span class="txt">汉堡包包</span>
-                                    </div>
-                                    <div class="caption">
-                                        丽江慢行，感受夏末美好时光（5天4夜小众不寻常之旅：泸沽湖+老君山+玉湖村+特色美食&住宿推荐）
-                                    </div>
-
-                                </div>
-                            </li>
-             -->
+                            
                         </ul>
                     </el-carousel-item>
 

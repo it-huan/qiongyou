@@ -2,7 +2,7 @@
     <div class="shop">
         <div class="container">
             <div class="title">穷游商城</div>
-            <!-- 缓一缓 -->
+            <!-- 换一换 -->
             <a href="javascript:;" class="change" @click="changeShopList">换一换</a>
             <ul class="list">
 
@@ -17,18 +17,7 @@
                         <div class="price" v-html="'￥' + item.price"></div>
                     </div>
                 </li>
-                <!-- 静态布局 -->
-                <!-- <li class="card">
-                    <div class="pic">
-                        <img src="https://pic.qyer.com/FqSjHBvWEBY_dzt277uHmJVpRweQ/300x300" alt="">
-                    </div>
-                    <div class="desc">
-                        <div class="title">标题</div>
-                        <div class="mark">信息</div>
-                        <div class="price">￥<span>2000</span>元起</div>
-                    </div>
-                </li> -->
-
+               
             </ul>
             <div class="more">
                 <a href="javascript:;" target="_blank" data-v-7c300386="">查看更多商品</a>
@@ -56,19 +45,7 @@ export default {
             this.$emit('getMoreShop')
         }
     }
-    //getHomeShop()接口名称
-    // beforeCreate() {
-    //     console.log('子组件---beforeCreate');
-    // },
-    // created() {
-    //     console.log('子组件---created');
-    // },
-    // beforeMount() {
-    //     console.log('子组件---beforeMount');
-    // },
-    // mounted() {
-    //     console.log('子组件---mounted');
-    // }
+    
 }
 </script>
 

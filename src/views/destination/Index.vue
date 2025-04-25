@@ -48,6 +48,13 @@ export default {
   },
   methods: {
     //网络请求
+
+    //  async getHotCity() {
+    //   let res = await this.$api.getHotCity()
+    //   console.log('获取当前热门城市-------', res.data.result.hotcity);
+    //   this.hotcity = res.data.result.hotcity;
+    // },
+
     async getDestSearch(val) {
       let res = await this.$api.getDestSearch({
         keyword: val

@@ -1,10 +1,5 @@
 ## Vue 框 ui 库
 
-1. vant 库 -- 移动端 \*\*
-2. Mint UI
-3. Antd vue
-   官网：https://www.antdv.com/docs/vue/introduce-cn
-4. element-ui -- pc 后台 \*\*
 
 ## Element-ui 库
 
@@ -23,28 +18,6 @@
 
 ## 首页制作
 
-
-## vue父子组件的生命周期顺序（重点-面试）
-###  加载渲染过程 *****
-   父beforeCreate=>父created=>父beforeMount=>子beforeCreate=>子created=>子beforeMount=>子mounted=>父mounted
-父组件---beforeCreate
-父组件---created
-父组件---beforeMount
-子组件---beforeCreate
-子组件---created
-子组件---beforeMount
-子组件---mounted--------------------
-父组件---mounted
-
-### 子组件更新过程
-   父beforeUpdate=>子beforeUpdate=>子updated=>父updated
-
-### 父组件更新过程
-   父beforeUpdate=>父updated
-
-### 销毁过程 *****
-
-父beforeDestroy=>子beforeDestroy=>子destoryed=>父destoryed
 
 
 ## 路由权限

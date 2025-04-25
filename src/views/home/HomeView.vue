@@ -271,6 +271,7 @@ export default {
 
   //热门城市
   .list {
+    border-radius: 6px;
     width: 100%;
     height: 240px;
     background: #fff;
